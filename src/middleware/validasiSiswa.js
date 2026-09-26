@@ -1,7 +1,7 @@
 function validateSiswaInput(req, res, next) {
   const { nis, nama, kelas, jurusan, alamat } = req.body;
   const errors = [];
-
+  // ajax code
   if (!nis || typeof nis !== "string" || nis.trim() === "") {
     errors.push("NIS wajib diisi.");
   } else if (!/^[0-9A-Za-z\-]{3,20}$/.test(nis.trim())) {
