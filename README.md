@@ -127,6 +127,8 @@ Jika berhasil, Anda akan melihat pesan di terminal bahwa server telah berjalan (
 - Pembuat : Emre Razaq
 - Kelas : 12 RPL
 - TTGL : Bogor, 03-06-2009
+- alamat : Kabasiran, Parung Panjang 
+- Umur : 17 Tahun 
 
 ## Pengujian RestAPI
 1. ![alt text](image.png)
