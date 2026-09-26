@@ -26,6 +26,7 @@ const upload = multer({
   },
 });
 
+
 const optionalUpload = (req, res, next) => {
   upload.single('foto')(req, res, (err) => {
     if (err) return res.status(400).json({ success: false, message: err.message });
@@ -40,3 +41,4 @@ router.put('/:id', optionalUpload, SiswaControllers.updateSiswa);
 router.delete('/:id', SiswaControllers.deleteSiswa);
 
 module.exports = router;
+//routes keluar (ke api nya)
